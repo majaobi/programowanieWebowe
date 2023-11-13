@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formularz</title>
+    <head>
+    <body> 
+        <h1>
+            Formularz kontaktowy
+        </h1>
+        <form action="/dziekujemy" method="get"> 
+            <div>
+                <label>
+                    Adres e-mail: <br />
+                    <input type="email" name="email" required>
+                </label>
+            </div>
+             <div>
+                <label>
+                    Temat: <br />
+                    <input type="text" name="subject" required>
+                </label>
+            </div>
+            <div>
+                <label>
+                    Wiadomosc: <br />
+                    <textarea name="message" cols="40" rows="20" required></textarea>
+                </label>
+            </div>
+            <div>
+                <button type="submit">Wyslij wiadomosc</button>
+            </div>
+        </form>
+    </body> 
+</html>
+
